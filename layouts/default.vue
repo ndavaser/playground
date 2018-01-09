@@ -1,10 +1,33 @@
 <template>
   <div>
+    <div class="pagesMenu">
+      <nuxt-link to="/">Page 1</nuxt-link>
+      <nuxt-link to="/page2">Page 2</nuxt-link>
+    </div>
     <nuxt/>
   </div>
 </template>
 
 <style>
+.pagesMenu
+{
+  text-align: center;
+  background-color: #3b8070;
+}
+.pagesMenu a
+{
+  background: #FFFFFF;
+  color: #3b8070;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 1px;
+  margin-right: 1px;
+}
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
