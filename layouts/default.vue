@@ -2,7 +2,7 @@
   <div>
     <div class="pagesMenu">
       <nuxt-link to="/">Page 1</nuxt-link>
-      <nuxt-link to="/page2">Page 2</nuxt-link>
+      <nuxt-link to="../page2">Page 2</nuxt-link>
     </div>
     <nuxt/>
   </div>
